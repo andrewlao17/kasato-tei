@@ -1,0 +1,148 @@
+TABLE 1. Mizuno: names written more than one way
+(form: occurrences, first dated attestation)
+
+pl_petropolis
+  ペツロホリス: 4  first 1908-07-05
+  ペトロポリス: 1  first 1908-07-21
+  ペツロポリス: 6  first 1908-07-24
+  Petropolis: 1  first undated (cover/appendix)
+
+pl_dumont
+  ヅーモント: 2  first 1908-07-18
+  ヅーモン: 16  first 1908-07-26
+
+ps_monteiro
+  モン: 21  first 1908-07-04
+  モンテイロ: 3  first 1908-07-06
+  モンデイロ: 1  first 1908-07-20
+
+ps_sobral
+  ソブラ: 2  first 1908-08-14
+  ソブラー: 1  first 1908-08-18
+  ゾフラー: 1  first 1908-08-20
+
+ps_dumont_manager
+  デヒー: 1  first 1908-08-10
+  デビー: 5  first 1908-08-18
+
+pl_estrangeiro
+  ストランヂェイロホテル: 1  first 1908-07-21
+  エストランヂェイロ: 1  first 1908-07-21
+  エストランヂェル: 1  first 1908-07-26
+
+pl_buenosaires
+  ブェノスアイレス: 1  first 1908-07-30
+  ベノスアイルス: 1  first 1908-08-11
+
+lex_broker
+  ブローカー: 1  first 1908-07-24
+  ブロカー: 1  first 1908-07-25
+
+pl_grandhotel
+  クランドホテル: 1  first 1908-06-19
+  グランドホテル: 1  first 1908-08-25
+
+pl_capetown
+  ケープタウン: 1  first 1908-05-10
+  Cape Town: 1  first 1908-06-02
+
+
+TABLE 2. Same place, two writers (occurrences)
+
+pl_brazil
+  Mizuno:  舞楽而留 2
+  Uetsuka: 伯国 21, 伯剌西爾 2, ブラジル 1
+
+pl_singapore
+  Mizuno:  聖嘉坡 2
+  Uetsuka: 新嘉坡 10
+
+pl_rio
+  Mizuno:  リヨ 15, リ 6
+  Uetsuka: -
+
+pl_rio_state
+  Mizuno:  リヨ州 3
+  Uetsuka: リオ州 1
+
+pl_dumont
+  Mizuno:  ヅーモント 2, ヅーモン 16
+  Uetsuka: ヂユモント 1
+
+pl_reunion
+  Mizuno:  セントレウニオン嶋 1
+  Uetsuka: レニオン 1
+
+pl_capetown
+  Mizuno:  ケープタウン 1, Cape Town 1
+  Uetsuka: ケープ・タウン 10
+
+pl_saopaulo
+  Mizuno:  サンパウロ 9, 聖 15
+  Uetsuka: サンパウロ 9
+
+pl_capeofgoodhope
+  Mizuno:  -
+  Uetsuka: 喜望峯 3, 喜望峰 2
+
+pl_guatapara
+  Mizuno:  -
+  Uetsuka: グワタパラ 1, カタバラ 1
+
+
+TABLE 3. Mizuno: first attestations, counted from landing at Santos (1908-06-18)
+  「リ」 in a verb (帰「リ」/下「リ」): first 1908-07-05 (+17 days), in 6 entries
+  来聖: first 1908-07-11 (+23 days), in 4 entries
+  帰聖: first 1908-07-23 (+35 days), in 2 entries
+  着聖: first 1908-08-09 (+52 days), in 1 entries
+  聖市: first 1908-07-30 (+42 days), in 4 entries
+  聖州: first 1908-08-01 (+44 days), in 2 entries
+  聖都: first 1908-07-23 (+35 days), in 1 entries
+  ミルレース: first 1908-07-17 (+29 days), in 4 entries
+  コントス / コント: first 1908-07-21 (+33 days), in 4 entries
+
+
+TABLE 4. Group labels (categories of belonging)
+
+Mizuno
+  cat_crew (6)
+    火夫: 6, first 1908-05-06
+  cat_labour (7)
+    鉄道工夫: 3, first 1908-08-18
+    耕地鉄道志望者: 1, first 1908-08-27
+    鉄道人夫: 2, first 1908-08-28
+    耕夫: 1, first 1908-09-02
+  cat_nation (1)
+    日本移民: 1, first 1908-08-18
+  cat_prefecture (3)
+    沖縄移民: 2, first 1908-08-22
+    熊本移民: 1, first 1908-09-02
+  cat_status (4)
+    船員の逃走者: 1, first 1908-06-22
+    船員逃走者: 1, first 1908-06-23
+    ヅーモン帰来移民: 1, first 1908-08-26
+    逃亡移民: 1, first 1908-08-26
+
+Uetsuka
+  cat_crew (5)
+    火夫: 5
+  cat_nation (19)
+    我移民: 6
+    日本移民: 6
+    日本人: 4
+    伯国人: 2
+    伊太利移民: 1
+  cat_prefecture (10)
+    沖縄県人: 2
+    鹿児島県移民: 1
+    高知愛媛県人: 1
+    愛媛高知県人: 1
+    沖縄移民: 2
+    愛媛県人: 2
+    鹿児島移民: 1
+
+
+VOYAGE CHECK
+  Noon positions: 46
+  Daily runs recorded: 49, adding up to 11920 miles
+  Mizuno's own stated total: 12000 miles

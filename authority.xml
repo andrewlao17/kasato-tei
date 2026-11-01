@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://vault.tei-c.org/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Kasato-maru corpus: authority records</title></titleStmt>
+      <publicationStmt><p>Working file.</p></publicationStmt>
+      <sourceDesc><p>Born digital. Attested forms are taken from mizuno.xml; forms from uetsuka.xml will be added when it is encoded.</p></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="belonging">
+          <category xml:id="cat_prefecture"><catDesc>Label by prefecture of origin</catDesc></category>
+          <category xml:id="cat_nation"><catDesc>National label</catDesc></category>
+          <category xml:id="cat_labour"><catDesc>Label by labour assignment or occupation</catDesc></category>
+          <category xml:id="cat_status"><catDesc>Disciplinary or legal status</catDesc></category>
+          <category xml:id="cat_crew"><catDesc>Ship crew (not emigrants)</catDesc></category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+  <standOff>
+    <listPlace>
+      <place xml:id="pl_petropolis">
+        <placeName type="reg" xml:lang="pt">Petrópolis</placeName>
+        <placeName type="attested">ペツロホリス</placeName>
+        <placeName type="attested">ペツロポリス</placeName>
+        <placeName type="attested">ペトロポリス</placeName>
+        <placeName type="attested" xml:lang="pt">Petropolis</placeName>
+      </place>
+      <place xml:id="pl_dumont">
+        <placeName type="reg" xml:lang="pt">Fazenda Dumont</placeName>
+        <placeName type="attested">ヅーモント</placeName>
+        <placeName type="attested">ヅーモン</placeName>
+        <placeName type="attested">ヂユモント</placeName>
+        <placeName type="editorial">ドゥモント</placeName>
+        <note>ヂユモント is Uetsuka's form; ドゥモント is the NDL's 2009 heading.</note>
+      </place>
+      <place xml:id="pl_rio">
+        <placeName type="reg" xml:lang="pt">Rio de Janeiro</placeName>
+        <placeName type="attested">リヨ</placeName>
+        <placeName type="attested">リ</placeName>
+        <note>リ is an abbreviation used in 帰「リ」す and 下「リ」す.</note>
+      </place>
+      <place xml:id="pl_rio_state">
+        <placeName type="reg" xml:lang="pt">Estado do Rio de Janeiro</placeName>
+        <placeName type="attested">リヨ州</placeName>
+      </place>
+      <place xml:id="pl_saopaulo">
+        <placeName type="reg" xml:lang="pt">São Paulo</placeName>
+        <placeName type="attested">サンパウロ</placeName>
+        <placeName type="attested">聖</placeName>
+        <note>聖 appears in 来聖, 帰聖, 着聖, 聖市, 聖州 and 聖都.</note>
+      </place>
+      <place xml:id="pl_singapore">
+        <placeName type="reg" xml:lang="en">Singapore</placeName>
+        <placeName type="attested">聖嘉坡</placeName>
+      </place>
+      <place xml:id="pl_capetown">
+        <placeName type="reg" xml:lang="en">Cape Town</placeName>
+        <placeName type="attested">ケープタウン</placeName>
+        <placeName type="attested" xml:lang="en">Cape Town</placeName>
+      </place>
+      <place xml:id="pl_santos">
+        <placeName type="reg" xml:lang="pt">Santos</placeName>
+        <placeName type="attested">サントス</placeName>
+      </place>
+      <place xml:id="pl_niteroi">
+        <placeName type="reg" xml:lang="pt">Niterói</placeName>
+        <placeName type="attested">ニテロイ</placeName>
+      </place>
+      <place xml:id="pl_mauritius">
+        <placeName type="reg" xml:lang="en">Mauritius</placeName>
+        <placeName type="attested">マウリタス嶋</placeName>
+        <note>Mizuno writes 仏領 (French territory); Mauritius was a British colony in 1908.</note>
+      </place>
+      <place xml:id="pl_reunion">
+        <placeName type="reg" xml:lang="fr">La Réunion</placeName>
+        <placeName type="attested">セントレウニオン嶋</placeName>
+      </place>
+      <place xml:id="pl_madagascar">
+        <placeName type="reg" xml:lang="fr">Madagascar</placeName>
+        <placeName type="attested">マダカスカル嶋</placeName>
+      </place>
+      <place xml:id="pl_africa">
+        <placeName type="reg" xml:lang="en">Africa</placeName>
+        <placeName type="attested">亜弗利加</placeName>
+      </place>
+      <place xml:id="pl_brazil">
+        <placeName type="reg" xml:lang="pt">Brasil</placeName>
+        <placeName type="attested">舞楽而留</placeName>
+        <placeName type="attested">ブラジル</placeName>
+      </place>
+      <place xml:id="pl_buenosaires">
+        <placeName type="reg" xml:lang="es">Buenos Aires</placeName>
+        <placeName type="attested">ブェノスアイレス</placeName>
+        <placeName type="attested">ベノスアイルス</placeName>
+      </place>
+      <place xml:id="pl_canaa">
+        <placeName type="reg" xml:lang="pt" cert="medium">Fazenda Canaã</placeName>
+        <placeName type="attested">カナン</placeName>
+      </place>
+      <place xml:id="pl_itu">
+        <placeName type="reg" xml:lang="pt">Itu</placeName>
+        <placeName type="attested">イツー</placeName>
+      </place>
+      <place xml:id="pl_prainha">
+        <placeName type="reg" xml:lang="pt" cert="medium">Prainha (Rio de Janeiro)</placeName>
+        <placeName type="attested">プライニヤ</placeName>
+      </place>
+      <place xml:id="pl_macae">
+        <placeName type="reg" xml:lang="pt" cert="medium">Macaé</placeName>
+        <placeName type="attested">マカエ</placeName>
+      </place>
+      <place xml:id="pl_sanfrancisco">
+        <placeName type="reg" xml:lang="en">San Francisco</placeName>
+        <placeName type="attested">サンプランシスコ</placeName>
+        <note>The NDL marks サンプ with (ママ).</note>
+      </place>
+      <place xml:id="pl_suwanose">
+        <placeName type="reg" xml:lang="ja" cert="medium">諏訪之瀬島</placeName>
+        <placeName type="attested">スワ嶋</placeName>
+      </place>
+      <place xml:id="pl_gaja">
+        <placeName type="reg" xml:lang="ja" cert="medium">臥蛇島</placeName>
+        <placeName type="attested">臥蛇嶋</placeName>
+      </place>
+      <place xml:id="pl_kyodai">
+        <placeName type="attested">兄弟嶋</placeName>
+        <note>Unidentified island sighted on 3 May.</note>
+      </place>
+      <place xml:id="pl_raba">
+        <placeName type="attested">ラバ嶋</placeName>
+        <note>Unidentified island sighted on 3 May.</note>
+      </place>
+      <place xml:id="pl_tokyo"><placeName type="reg" xml:lang="ja">東京</placeName></place>
+      <place xml:id="pl_okayama"><placeName type="reg" xml:lang="ja">岡山</placeName></place>
+      <place xml:id="pl_hiroshima">
+        <placeName type="reg" xml:lang="ja">広島</placeName>
+        <placeName type="attested">広嶋</placeName>
+      </place>
+      <place xml:id="pl_newcaledonia">
+        <placeName type="reg" xml:lang="fr">Nouvelle-Calédonie</placeName>
+        <placeName type="attested">ニューカレドニヤ</placeName>
+      </place>
+      <place xml:id="pl_estacao_norte">
+        <placeName type="reg" xml:lang="pt" cert="medium">Estação do Norte (São Paulo)</placeName>
+        <placeName type="attested">ノルテ</placeName>
+      </place>
+      <place xml:id="pl_central">
+        <placeName type="reg" xml:lang="pt" cert="medium">Estação Central (Rio de Janeiro)</placeName>
+        <placeName type="attested">セントラル</placeName>
+      </place>
+      <place xml:id="pl_bosque_saude">
+        <placeName type="reg" xml:lang="pt" cert="low">Bosque da Saúde (São Paulo)</placeName>
+        <placeName type="attested">ボハケデサウデ</placeName>
+      </place>
+      <place xml:id="pl_grandhotel">
+        <placeName type="reg" cert="medium">Grand Hotel (São Paulo)</placeName>
+        <placeName type="attested">クランドホテル</placeName>
+        <placeName type="attested">グランドホテル</placeName>
+      </place>
+      <place xml:id="pl_hotel_avenida">
+        <placeName type="reg" xml:lang="pt" cert="medium">Hotel Avenida (Rio de Janeiro)</placeName>
+        <placeName type="attested">ホテルアベニダ</placeName>
+      </place>
+      <place xml:id="pl_estrangeiro">
+        <placeName type="reg" xml:lang="pt" cert="medium">Hotel dos Estrangeiros (Rio de Janeiro)</placeName>
+        <placeName type="attested">ストランヂェイロホテル</placeName>
+        <placeName type="attested">エストランヂェイロ</placeName>
+        <placeName type="attested">エストランヂェル</placeName>
+      </place>
+    
+      <place xml:id="pl_kobe"><placeName type="reg" xml:lang="ja">神戸</placeName></place>
+      <place xml:id="pl_capeofgoodhope"><placeName type="reg" xml:lang="en">Cape of Good Hope</placeName><placeName type="attested">喜望峯</placeName><placeName type="attested">喜望峰</placeName></place>
+      <place xml:id="pl_sumatra"><placeName type="reg" xml:lang="en">Sumatra</placeName><placeName type="attested">スマトラ</placeName></place>
+      <place xml:id="pl_indianocean"><placeName type="reg" xml:lang="en">Indian Ocean</placeName><placeName type="attested">印度洋</placeName></place>
+      <place xml:id="pl_hongkong"><placeName type="reg" xml:lang="en">Hong Kong</placeName><placeName type="attested">香港</placeName></place>
+      <place xml:id="pl_peru"><placeName type="reg" xml:lang="es">Perú</placeName><placeName type="attested">秘露</placeName></place>
+      <place xml:id="pl_guatapara"><placeName type="reg" xml:lang="pt" cert="medium">Fazenda Guatapará</placeName><placeName type="attested">グワタパラ</placeName><placeName type="attested">カタバラ</placeName><note>Uetsuka uses both forms in his second dispatch.</note></place>
+      <place xml:id="pl_saomartinho"><placeName type="reg" xml:lang="pt" cert="medium">Fazenda São Martinho</placeName><placeName type="attested">サンマルチニヤ</placeName></place>
+      <place xml:id="pl_bras"><placeName type="reg" xml:lang="pt">Brás (São Paulo)</placeName><placeName type="attested">ブラス</placeName></place>
+    </listPlace>
+
+    <listPerson>
+      <person xml:id="ps_uetsuka">
+        <persName type="reg" xml:lang="ja">上塚周平</persName>
+        <persName type="attested">上塚</persName>
+        <note>Agent of the Kōkoku Shokumin Kaisha (1876–1935), per the NDL's note on his dispatches.</note>
+      </person>
+      <person xml:id="ps_miura">
+        <persName type="reg" xml:lang="ja">三浦荒次郎</persName>
+        <persName type="attested">三浦</persName>
+        <note>First-class interpreter at the Japanese legation, per Uetsuka's second dispatch.</note>
+      </person>
+      <person xml:id="ps_kamiya"><persName type="reg" xml:lang="ja">神谷忠雄</persName><persName type="attested">神谷</persName></person>
+      <person xml:id="ps_mihara"><persName type="reg" xml:lang="ja">三原</persName></person>
+      <person xml:id="ps_tanaka"><persName type="reg" xml:lang="ja">田中</persName></person>
+      <person xml:id="ps_miyazaki">
+        <persName type="reg" xml:lang="ja">宮崎信造</persName>
+        <persName type="attested">宮崎</persName>
+        <note>Interpreter engaged by agreement with the minister (diary, 8 July).</note>
+      </person>
+      <person xml:id="ps_kataoka"><persName type="reg" xml:lang="ja">片岡</persName></person>
+      <person xml:id="ps_arikawa"><persName type="reg" xml:lang="ja">有川</persName><note>Called 通訳 (interpreter) on 26 August.</note></person>
+      <person xml:id="ps_kato"><persName type="reg" xml:lang="ja">加藤</persName><note>Called 通訳 (interpreter) on 25 August.</note></person>
+      <person xml:id="ps_goto"><persName type="reg" xml:lang="ja">後藤</persName></person>
+      <person xml:id="ps_baba"><persName type="reg" xml:lang="ja">馬場</persName><note>Legation clerk (書記生).</note></person>
+      <person xml:id="ps_narikawa"><persName type="reg" xml:lang="ja">成川</persName><note>Forestry engineer (山林技師).</note></person>
+      <person xml:id="ps_kudama"><persName type="reg" xml:lang="ja">九玉</persName><note>Reading of the name uncertain.</note></person>
+      <person xml:id="ps_itami"><persName type="reg" xml:lang="ja">伊丹</persName><note>Major (少佐).</note></person>
+      <person xml:id="ps_koyama">
+        <persName type="reg" xml:lang="ja" cert="low">香山六郎</persName>
+        <persName type="attested">香山</persName>
+        <note>Possibly 香山六郎, a Kasato-maru passenger who later founded Japanese-language journalism in São Paulo (Hosokawa 2008a). The diary does not confirm this.</note>
+      </person>
+      <person xml:id="ps_yamagata"><persName type="reg" xml:lang="ja">山形勇三郎</persName><persName type="attested">山形</persName></person>
+      <person xml:id="ps_mizushima"><persName type="reg" xml:lang="ja">水嶋唱一郎</persName><persName type="attested">水嶋</persName></person>
+      <person xml:id="ps_furukawa"><persName type="reg" xml:lang="ja">古川大斧</persName><persName type="attested">古川</persName></person>
+      <person xml:id="ps_uchida_minister"><persName type="attested">内田</persName><note>Japanese minister (公使) to Brazil; full name not given in the diary.</note></person>
+      <person xml:id="ps_uchida_shipping"><persName type="attested">内田</persName><note>Director of the Shipping Bureau (管船局長); a different person from the minister.</note></person>
+      <person xml:id="ps_monteiro">
+        <persName type="reg" xml:lang="pt">Monteiro</persName>
+        <persName type="attested">モンテイロ</persName>
+        <persName type="attested">モンデイロ</persName>
+        <persName type="attested">モン</persName>
+        <note>Brazilian associate of the company; praised by Uetsuka in his second dispatch.</note>
+      </person>
+      <person xml:id="ps_sobral">
+        <persName type="reg" xml:lang="pt" cert="medium">J. Amândio Sobral</persName>
+        <persName type="attested">ソブラ</persName>
+        <persName type="attested">ソブラー</persName>
+        <persName type="attested">ゾフラー</persName>
+        <occupation>Inspector (検査官)</occupation>
+        <note>Identification proposed from role and date: Sobral was an inspector of the São Paulo Secretariat of Agriculture in 1908 (Museu da Imigração, n.d.).</note>
+      </person>
+      <person xml:id="ps_dumont_manager">
+        <persName type="attested">デヒー</persName>
+        <persName type="attested">デビー</persName>
+        <note>Manager (支配人) of the Dumont estate; Portuguese form unknown.</note>
+      </person>
+      <person xml:id="ps_darino"><persName type="attested">ダリーノ</persName><note>Overseer (監督) at the Dumont estate.</note></person>
+      <person xml:id="ps_bento_bueno"><persName type="reg" xml:lang="pt" cert="medium">Bento Bueno</persName><persName type="attested">ベント、ブエノ</persName></person>
+      <person xml:id="ps_botteriyo"><persName type="attested">ボッテリヨ</persName><note>Described as 前大領; unidentified.</note></person>
+      <person xml:id="ps_michael"><persName type="attested">ミカエル</persName><note>A woman (ミカエル女), party to the coffee contract of 27 July.</note></person>
+          <person xml:id="ps_mizuno"><persName type="reg" xml:lang="ja">水野龍</persName><persName type="attested">水野</persName><note>President (社長) of the Kōkoku Shokumin Kaisha; author of the voyage diary.</note></person>
+      <person xml:id="ps_eto"><persName type="reg" xml:lang="ja">江藤哲蔵</persName><note>Member of the Diet (代議士) who recommended Uetsuka, per the magazine's introduction.</note></person>
+      <person xml:id="ps_asahi"><persName type="reg" xml:lang="ja">朝日胤一</persName><note>Law graduate posted to Peru, per the magazine's introduction.</note></person>
+      <person xml:id="ps_suzuki_teijiro"><persName type="reg" xml:lang="ja">鈴木貞次郎</persName><note>At the São Paulo immigrant hostel, per Uetsuka's second dispatch.</note></person>
+    </listPerson>
+
+    <listOrg>
+      <org xml:id="org_toyo"><orgName xml:lang="ja">東洋汽船</orgName></org>
+      <org xml:id="org_mitsui"><orgName xml:lang="ja">三井物産会社</orgName></org>
+      <org xml:id="org_commercio"><orgName type="attested">コメルシヨ</orgName><note>A newspaper (新聞社); full title not given.</note></org>
+      <org xml:id="org_brazil_railway"><orgName xml:lang="ja">ブラジル鉄道会社</orgName></org>
+      <org xml:id="org_nippaku"><orgName xml:lang="ja">日伯商店</orgName></org>
+      <org xml:id="org_fujisaki"><orgName xml:lang="ja">藤崎商店</orgName></org>
+      <org xml:id="org_yasuda"><orgName xml:lang="ja">安田商店</orgName></org>
+    
+      <org xml:id="org_kokoku"><orgName xml:lang="ja">皇国殖民会社</orgName><orgName type="attested">皇国移民会社</orgName><note>皇国移民会社 appears once, in the magazine's introduction.</note></org>
+    </listOrg>
+
+    <listPerson type="groups">
+      <personGrp xml:id="grp_okinawa"><p>沖縄移民: emigrants from Okinawa.</p></personGrp>
+      <personGrp xml:id="grp_kumamoto"><p>熊本移民: emigrants from Kumamoto.</p></personGrp>
+      <personGrp xml:id="grp_japanese"><p>日本移民: Japanese emigrants.</p></personGrp>
+      <personGrp xml:id="grp_railway"><p>鉄道工夫, 鉄道人夫: emigrants reassigned to railway work.</p></personGrp>
+      <personGrp xml:id="grp_farmhands"><p>耕夫: farm labourers.</p></personGrp>
+      <personGrp xml:id="grp_choosers"><p>耕地鉄道志望者: emigrants choosing between estate and railway work.</p></personGrp>
+      <personGrp xml:id="grp_absconders"><p>逃亡移民: emigrants who had left their estate.</p></personGrp>
+      <personGrp xml:id="grp_dumont_returnees"><p>ヅーモン帰来移民: emigrants returned from the Dumont estate.</p></personGrp>
+      <personGrp xml:id="grp_crew_deserters"><p>船員(の)逃走者: crew members who deserted the ship.</p></personGrp>
+      <personGrp xml:id="grp_stokers"><p>火夫: the ship's stokers.</p></personGrp>
+          <personGrp xml:id="grp_kagoshima"><p>鹿児島(県)移民: emigrants from Kagoshima.</p></personGrp>
+      <personGrp xml:id="grp_ehime"><p>愛媛県人: people from Ehime.</p></personGrp>
+      <personGrp xml:id="grp_ehime_kochi"><p>愛媛高知県人, 高知愛媛県人: people from Ehime and Kōchi.</p></personGrp>
+      <personGrp xml:id="grp_japanese_people"><p>日本人: the Japanese.</p></personGrp>
+      <personGrp xml:id="grp_italians"><p>伊太利移民: Italian immigrants.</p></personGrp>
+      <personGrp xml:id="grp_brazilians"><p>伯国人: Brazilians.</p></personGrp>
+    </listPerson>
+
+    <list type="contactLexicon">
+      <item xml:id="lex_milreis"><term xml:lang="pt">mil-réis</term>: Brazilian monetary unit.</item>
+      <item xml:id="lex_conto"><term xml:lang="pt">conto (de réis)</term>: 1,000 mil-réis.</item>
+      <item xml:id="lex_broker"><term xml:lang="en">broker</term></item>
+      <item xml:id="lex_committee"><term>コンミッチー</term>: a committee; source word (Portuguese or English) uncertain.</item>
+      <item xml:id="lex_agencia"><term xml:lang="pt">agência</term></item>
+      <item xml:id="lex_purser"><term xml:lang="en">purser</term></item>
+      <item xml:id="lex_programa"><term xml:lang="en">programme</term>: source word (English or Portuguese programa) uncertain.</item>
+      <item xml:id="lex_fancyball"><term xml:lang="en">fancy ball</term></item>
+    
+      <item xml:id="lex_saloon"><term xml:lang="en">saloon</term></item>
+      <item xml:id="lex_cabin"><term xml:lang="en">cabin</term></item>
+      <item xml:id="lex_station"><term xml:lang="en">station</term></item>
+      <item xml:id="lex_incline"><term xml:lang="en">incline</term></item>
+      <item xml:id="lex_fork"><term xml:lang="en">fork</term></item>
+      <item xml:id="lex_soup"><term xml:lang="en">soup</term></item>
+      <item xml:id="lex_table"><term xml:lang="en">table</term></item>
+      <item xml:id="lex_cement"><term xml:lang="en">cement</term></item>
+    </list>
+
+    <listEvent>
+      <event xml:id="ev_stoker" notBefore="1908-06-14" notAfter="1908-06-16">
+        <head>Stoker's knife attack aboard ship</head>
+        <p>Mizuno: filed under 15 June, late at night after a fancy-dress ball; the senior stoker is stabbed. <ptr target="mizuno.xml#e1908-06-15"/></p>
+        <p>Uetsuka: night of 14 June, after a farewell ceremony in the saloon; the blade is held to the deputy stoker's abdomen. Pointer to be added when uetsuka.xml is encoded.</p>
+      </event>
+      <event xml:id="ev_capetown" notBefore="1908-06-02" notAfter="1908-06-03">
+        <head>Arrival at Cape Town</head>
+        <p>Mizuno: anchored outside the harbour at 22:00 on 2 June; entered the dock at 07:00 on 3 June. <ptr target="mizuno.xml#e1908-06-02"/> <ptr target="mizuno.xml#e1908-06-03"/></p>
+        <p>Uetsuka: African coast sighted early on 3 June; entered port at 23:00. Pointer to be added when uetsuka.xml is encoded.</p>
+      </event>
+    </listEvent>
+  </standOff>
+</TEI>
